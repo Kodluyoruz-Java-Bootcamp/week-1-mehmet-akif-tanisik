@@ -19,9 +19,9 @@ Collection Framework bir grup nesneyi depolamak ve işlemek için birleşik bir 
 Bu interface'i implemente eden sınıfların nesnelerinin 'For-each-loop' ile iterasyona uğrayabilirler.
 
 #### Methodlar:
-default void forEach(Consumer<? super T> action)
-Iterator<T> iterator()
-default Spliterator<T> spliterator()
+- default void forEach(Consumer<? super T> action)
+- Iterator<T> iterator()
+- default Spliterator<T> spliterator()
 
 ### Collection Interface
 
