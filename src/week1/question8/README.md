@@ -51,23 +51,23 @@ daha karakteristik özellikler birbirinden ayrılıyor.
 
 ### List Interface
 
-Bazı Methodlar:
-boolean	add(E e) -- listenin sonuna eleman ekler
-void	add(int index, E element) -- listenin belirli bir indexine eleman ekler
-E	get(int index) -- listenin index'indeki elemanı döner
-int	indexOf(Object o) -- eğer varsa elemanın ilk göründüğü indexi verir
-default void	sort(Comparator<? super E> c) -- listeyi sıralar
-List<E>	subList(int fromIndex, int toIndex) -- belirli aralıkta orjinal listenin kopyasını döndürür
+#### Methodlar:
+- boolean	add(E e) -- listenin sonuna eleman ekler
+- void	add(int index, E element) -- listenin belirli bir indexine eleman ekler
+- E	get(int index) -- listenin index'indeki elemanı döner
+- int	indexOf(Object o) -- eğer varsa elemanın ilk göründüğü indexi verir
+- default void	sort(Comparator<? super E> c) -- listeyi sıralar
+- List<E>	subList(int fromIndex, int toIndex) -- belirli aralıkta orjinal listenin kopyasını döndürür
 
 ### Queue Interface
 
-Bazı Methodlar:
-boolean	add(E e) -- element ekler
-E	element() -- Bu kuyruğun başını alır, ancak kaldırmaz.
-boolean	offer(E e) -- Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, belirtilen öğeyi bu kuyruğa ekler.
-E	peek() -- Bu kuyruğun başını alır, ancak kaldırmaz veya bu sıra boşsa null değerini döndürür.
-E	poll() -- Bu kuyruğun başını alır ve kaldırır veya bu sıra boşsa null değerini döndürür.
-E	remove() -- Bu kuyruğun başını alır ve kaldırır.
+#### Methodlar:
+- boolean	add(E e) -- element ekler
+- E	element() -- Bu kuyruğun başını alır, ancak kaldırmaz.
+- boolean	offer(E e) -- Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, belirtilen öğeyi bu kuyruğa ekler.
+- E	peek() -- Bu kuyruğun başını alır, ancak kaldırmaz veya bu sıra boşsa null değerini döndürür.
+- E	poll() -- Bu kuyruğun başını alır ve kaldırır veya bu sıra boşsa null değerini döndürür.
+- E	remove() -- Bu kuyruğun başını alır ve kaldırır.
 
 ### Set Interface
 
@@ -76,11 +76,11 @@ Koleksiyon interfaceindeki tüm methodlara sahiptir.
 ### Deque Interface:
 
 #### Bazı Methodlar:
-E	getFirst() -- Bu deque'nin ilk öğesini alır, ancak kaldırmaz.
-E	getLast() -- Bu deque'nin son öğesini alır, ancak kaldırmaz.
-boolean	offerFirst(E e) -- Kapasite kısıtlamalarını ihlal etmedikçe belirtilen öğeyi bu deque'in önüne ekler.
-boolean	offerLast(E e) -- Kapasite kısıtlamalarını ihlal etmedikçe belirtilen öğeyi bu deque'in sonuna ekler.
-E	pop() -- Bu deque tarafından temsil edilen yığından bir öğe çıkarır.
+- E	getFirst() -- Bu deque'nin ilk öğesini alır, ancak kaldırmaz.
+- E	getLast() -- Bu deque'nin son öğesini alır, ancak kaldırmaz.
+- boolean	offerFirst(E e) -- Kapasite kısıtlamalarını ihlal etmedikçe belirtilen öğeyi bu deque'in önüne ekler.
+- boolean	offerLast(E e) -- Kapasite kısıtlamalarını ihlal etmedikçe belirtilen öğeyi bu deque'in sonuna ekler.
+- E	pop() -- Bu deque tarafından temsil edilen yığından bir öğe çıkarır.
 
 <!-- TECHNOLOGIES -->
 ### Technologies
