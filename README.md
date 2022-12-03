@@ -11,7 +11,7 @@ a palindromic number from each number with this procedure,  namely by reversing 
 ```
 Accordingly, write a program that finds the longest chain for which number will form from the numbers from 10 to 100 until you get a palindromic number with this procedure and print the chain to the screen. (http://www.p196.org/)
 
-#### Question 1  --> <a href="" target="_blank">Solution</a>
+#### Question 1  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question1" target="_blank">Solution</a>
 
 ### Question 2
 - Have the following figures drawn on the screen separately and by separating them into parametric and methods. (10 POINTS)
@@ -23,37 +23,37 @@ Accordingly, write a program that finds the longest chain for which number will 
         *****     *****
 ```
 
-#### Question 2  --> <a href="" target="_blank">Solution</a>
+#### Question 2  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question2" target="_blank">Solution</a>
 
 ### Question 3
 - Explain how Java provides platform independence. (5 POINTS)
 
-#### Question 3  --> <a href="" target="_blank">Solution</a>
+#### Question 3  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question3" target="_blank">Solution</a>
 
 ### Question 4
 Explain the concepts of heap and stack in Java with examples. (5 POINTS)
 
-#### Question 4  --> <a href="" target="_blank">Solution</a>
+#### Question 4  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question4" target="_blank">Solution</a>
 
 ### Question 5
 Explain how the String class makes it immutable with examples and drawings. (5 POINTS)
 
-#### Question 5  --> <a href="" target="_blank">Solution</a>
+#### Question 5  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question5" target="_blank">Solution</a>
 
 ### Question 6
 Explain why Java does not support multiple inheritance? (5 POINTS)
 
-#### Question 6  --> <a href="" target="_blank">Solution</a>
+#### Question 6  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question6" target="_blank">Solution</a>
 
 ### Question 7
 What is Build Tool ? Explain what is the build tools in the Java ecosystem? (5 POINTS)
 
-#### Question 7  --> <a href="" target="_blank">Solution</a>
+#### Question 7  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question7" target="_blank">Solution</a>
 
 ### Question 8
 Explain and illustrate all the structures in the Collection framework with their important methods. (20 POINTS)
 
-#### Question 8  --> <a href="" target="_blank">Solution</a>
+#### Question 8  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question8" target="_blank">Solution</a>
 
 ### Question 9
 - Create a class called MyList and write the code with the following properties. (15 POINTS)
@@ -68,7 +68,7 @@ Explain and illustrate all the structures in the Collection framework with their
 
   - Default capacity should be 5. Each capacity increase must be 7.
 
-#### Question 9  --> <a href="" target="_blank">Solution</a>
+#### Question 9  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question9" target="_blank">Solution</a>
 
 ### Question 10
 - Design an online shopping system that will contain a customer, product, order and invoice objects. (20 POINTS)
@@ -88,7 +88,7 @@ Explain and illustrate all the structures in the Collection framework with their
   - Calculate the total shopping amount of customers whose name is Cem and who are younger than 30 and older than 25.
   - List all invoices over 1500 TL in the system.
 
-#### Question 10  --> <a href="" target="_blank">Solution</a>
+#### Question 10  --> <a href="https://github.com/Kodluyoruz-Java-Bootcamp/week-1-mehmet-akif-tanisik/tree/master/src/week1/question10" target="_blank">Solution</a>
 
 <!-- TECHNOLOGIES -->
 ### Technologies
