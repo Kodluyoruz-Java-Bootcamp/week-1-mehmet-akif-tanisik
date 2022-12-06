@@ -2,7 +2,7 @@
 ## Project Description
 ### Question 1
 - If we reverse the number 47 and add it with itself; 47 + 74 = 121, we get a palindromic number.It is not that easy to generate
-  a palindromic number from each number with this procedure,  namely by reversing and adding to itself. For some numbers, we repeat this process over and over to arrive at a palindromic number. For example, for the number 349, we need to repeat this process 3 times in a chain: (10 POINTS)
+  a palindromic number from each number with this procedure,  namely by reversing and adding to itself. For some numbers, we repeat this process over and over to arrive at a palindromic number. For example, for the number 349, we need to repeat this process 3 times in a chain:
 
 ```Java
     349 + 943 = 1292       | 1292 + 2921 = 4213        | 4213 + 3124 = 7337
@@ -27,7 +27,6 @@ Accordingly, write a program that finds the longest chain for which number will 
 
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

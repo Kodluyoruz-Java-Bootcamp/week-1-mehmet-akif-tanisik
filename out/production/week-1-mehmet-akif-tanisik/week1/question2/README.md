@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Description
 ### Question 2
-- Have the following figures drawn on the screen separately and by separating them into parametric and methods. (10 POINTS)
+- Have the following figures drawn on the screen separately and by separating them into parametric and methods.
 
 ```Java
         *             *
@@ -28,7 +28,6 @@
 
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

@@ -2,26 +2,29 @@
 ## Project Description
 
 ### Question 6
-Explain why Java does not support multiple inheritance? (5 POINTS)
+Java neden çoklu kalıtımı desteklemez açıklayınız?
+
+### Answer
+
+Java nesne yönelimli bir programlama olduğu için nesne yönelimli programlamanın prensiplerini içerisinde
+barındırmaktadır. Boilerplate kod yazmamızı engelleyen ve kalıtım yapmamıza olanak sağlayan inheritance sayesinde
+kodlarımızı Javada düzgün bir şekilde yazmaktayız. Java sınıfları birçok interface'i implement edebilirken birçok
+sınıftan türetilemezler. Birçok sınıftan türetilememe durumunun tabikide sebepleri vardır. Aslında kalıtım yaptığımız
+zaman biz üst sınıfın tüm özelliklerini ve işlevselliklerini alt sınıflara aktarabiliyoruz. Düşünelimki bir Java sınıfı
+iki farklı sınıftan kalıtım alsa, örnek olması açısından class C  ; class A ve class B' den türetilmiş olsun. Bu
+durumda class C , A ve B sınıflarının tüm özelliklerini ve işlevselliklerini kendine aktarabiliyor. Diyelimki class
+A ve class B , display() diye bir methoda sahip olsunlar. Java compiler class C kalıtım yoluyla oluşturulduğunda
+bünyesinde hangi üst sınıfın display() methodunu alacağını anlayamaz. Bu durumda aslında kesinlik olmaz ve karmaşıklık
+ortaya çıkmış olur. Bu karmaşıklığın önüne geçmek için Java oluşturucuları bazı diğer dillerde olan Multiple
+Inheritance'a izin vermemişlerdir. Bu şekilde bu karmaşıklıkların yaşanmasıda engellenilmiştir.
 
 <!-- TECHNOLOGIES -->
 ### Technologies
 
 <a href="https://www.java.com/" target="_blank"><img src="../../../outputImages/logos/java.svg" alt="Java" height="80" /></a>
 
-
-
-
-<!-- OUTPUT SCREENSHOTS -->
-### Output Screenshots
-
-<a ><img src="outputImages/week1/question1.png" alt="" height="80" /></a>
-<img src="/outputImages/week1/question1.png" alt="" />
-
-
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

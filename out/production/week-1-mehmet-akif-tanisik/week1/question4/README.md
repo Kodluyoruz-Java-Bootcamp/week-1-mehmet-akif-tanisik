@@ -2,7 +2,44 @@
 ## Project Description
 
 ### Question 4
-Explain the concepts of heap and stack in Java with examples. (5 POINTS)
+Java’da heap ve stack kavramlarını örneklerle açıklayın.
+
+### Answer
+
+Her programlama dilinde olduğu gibi Java içinde hafıza yönetimi önemli bir rol oynamaktadır. Farklı dillerde olduğu
+gibi Java içerisinde manuel olarak hafıza manüpülasyonları gerçekleştiremiyoruz. Java bu hafıza yönetimini bizler
+için otomatik olarak gerçekleştiriyor. Java sanal makinesi hafızayı bizim için iki parçaya böler. Bu kısımları biz
+'stack' ve 'heap' olarak adlandırırız. Bu iki hafıza kısmıda bizim için önemlidir ve ikiside farklı amaçlar
+doğrultusunda kullanılırlar. Aslında ikisininde görevi depolamadır fakat amaçları farklıdır. Bu iki kısım arasındaki
+en büyük fark, Stack memory'nin method çağırma sıralarını ve yerel değişkenleri tutması iken Heap Memory'nin görevi ise
+nesnelerin depolanması ve dinamik olarak 'memory allocation' ve 'deallocation' yapmasıdır.
+
+#### Stack Memory
+Stack memory çalışma zamanında her thread görevi için tahsis edilen fiziksel bir alandır.(Ram'in içerisinde) Stack
+memory herhangi bir thread oluşturulduğu zaman oluşturulur. Hafıza yönetimi LIFO(Last-In-First-Out) yani ilk giren
+son çıkar ilkesine göre çalışır çünkü stack memory global olarak erişilebilirdir. Stack memory değişkenleri, nesne
+referanslarını ve kısmi cevapları saklar. Stack 'e ayrılan hafıza herhangi bir dönene kadar yaşamına devam eder. JVM ,
+her thread için ayrı bir Stack oluşturur. Son olarak Stack'de yer kalmadığı zaman StackOverFlowError sınıfından bir
+exception fırlatılır.
+
+#### Heap Memory
+Hep memory JVM başladığı zaman oluşturulur ve uygulama çalıştığı sürece uygulama tarafından kullanılmaya devam eder.
+Hep memory nesnelerimizi ve JRE kütüphanelerimizi içerisinde saklar. Biz nesne oluşturduğumuz zaman heap içerisinde bu
+nesne için yer ayrılırken, bu nesnenin referansı Stack içerisinde barındırılır. Heap memory Stack gibi herhangi bir
+sırayı takip etmeden çalışır. Dinamik olarak bellek bloklarını işlenir. Bu şekilde hafızayı manuel olarak işlememize
+de gerek kalmamaktadır. Hafızanın otomatik olarak yönetilmesi için Java, içerisinde Çöp Toplayıcı barındırır. Bu çöp
+toplayıcısı kullanılmayan nesnelerin hafızadan silinip daha iyi bir bellek kullanımını amaçlamaktadır. Heap'e ayrılan
+bellek herhangi bir olay ya da program sonlanıncaya kadar devam eder. Elementlere ulaşım global olarak yapılabilir.
+Tüm thread ler için paylaşılan ortak bir bellek alanıdır. Son olarak Heap'de yer kalmadığı zaman OutOfMemoryError 
+sınıfından bir exception fırlatılır.
+
+Heap aşağıdaki alanlara bölünmüştür:
+
+- Young generation
+- Survivor space
+- Old generation
+- Permanent generation
+- Code Cache
 
 <!-- TECHNOLOGIES -->
 ### Technologies
@@ -10,18 +47,8 @@ Explain the concepts of heap and stack in Java with examples. (5 POINTS)
 <a href="https://www.java.com/" target="_blank"><img src="../../../outputImages/logos/java.svg" alt="Java" height="80" /></a>
 
 
-
-
-<!-- OUTPUT SCREENSHOTS -->
-### Output Screenshots
-
-<a ><img src="outputImages/week1/question1.png" alt="" height="80" /></a>
-<img src="/outputImages/week1/question1.png" alt="" />
-
-
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

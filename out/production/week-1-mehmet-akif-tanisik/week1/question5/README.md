@@ -2,8 +2,25 @@
 ## Project Description
 
 ### Question 5
-Explain how the String class makes it immutable with examples and drawings. (5 POINTS)
+String class’ı nasıl immutable olmayı sağlamaktadır örnek ve çizimlerle açıklayınız.
 
+### Answer
+
+<img src="../../../outputImages/week1/question5.png" alt="question5" />
+Nesne yönelimli programlamada immutable String ler ya da nesneler, bir defa oluşturulduktan sonra değiştirilemez
+oldukları anlamına gelir. Değiştirilemezler, fakat bu nesnelerin referansları değişebilir. Nesnelerin değişmesine ya
+da manüpüle edilmesine sınır getirilmiştir. Java içerisindeki String sınıfı da immutable yani değiştirilemezdir ve
+bunun sebeplerini şu şekilde sıralayabiliriz: güvenlik, sekronizasyon ve uyumluluk, ön belleğe alma ve sınıf
+yüklemeleri. String sınıfının değişmez olması aslında manüpüle edilebilir olmasının ya da genişletilmesinin önüne
+geçmektir.
+
+String nesneleri, String Pool (String Havuzu) içerisinde ön belleğe alınır, bu durum Stringleri değiştirilemez kılar.
+Ön belleğe alınan bu String nesnelerinin değerlerine birden çok istemci tarafından erişilir. Bu yüzden, bu nesneleri
+kullanan yapıların bu nesneler üzerinde değişiklik yapıldığında etkilenme şansları vardır. Örneğin elimizde bir 'mehmet'
+değerinde bir String nesnesi var. Bu nesnenin değeri bu nesneyi kullanan başka bir yapı tarafından 'MEHMET' diye
+değiştirilirse, diğer bu nesneyi kullanan yapılar bundan etkilenir ve onların sahip olduğu String nesnesi de 'MEHMET'
+olarak değişir. Ayrıca performans nedeniyle String nesnelerinin ön belleğe alınmalarının önemi yüksek olduğu için,
+String nesneleri immutable yani değiştirilemezlerdir.
 
 <!-- TECHNOLOGIES -->
 ### Technologies
@@ -11,18 +28,8 @@ Explain how the String class makes it immutable with examples and drawings. (5 P
 <a href="https://www.java.com/" target="_blank"><img src="../../../outputImages/logos/java.svg" alt="Java" height="80" /></a>
 
 
-
-
-<!-- OUTPUT SCREENSHOTS -->
-### Output Screenshots
-
-<a ><img src="outputImages/week1/question1.png" alt="" height="80" /></a>
-<img src="/outputImages/week1/question1.png" alt="" />
-
-
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

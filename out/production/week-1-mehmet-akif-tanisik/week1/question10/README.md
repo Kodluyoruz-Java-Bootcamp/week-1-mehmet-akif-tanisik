@@ -35,8 +35,6 @@
 
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
-
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 

@@ -2,7 +2,37 @@
 ## Project Description
 
 ### Question 3
-- Explain how Java provides platform independence. (5 POINTS)
+- Java’nın platform bağımsızlığını nasıl sağladığını anlatınız.
+
+### Answer
+
+Java ile alakalı çevremizden veya araştırmalarımızdan duyduğumuz en belirgin özellik platform bağımsızlığıdır.
+Hatta Java ile alakalı çok meşhur bir söz vardır ki o da WORA'nın açılımı olan "Write One Run Anywhere" dir.
+Bu cümleyi biraz açacak olursak aslında bir defa yaz ve herhangi bir yerde çalıştırabilme yetisinden bahsediliyor.
+
+Şimdi biraz daha terimsel olarak anlatmamız gerekirse; yazılımcıların günümüzde popüler olarak kullandıkları diller
+yüksek seviyeli dillerdir. Aynı zamanda makinenin anladığı ve ona özgü olan dillere ise biz makine dili diyoruz.
+Nasıl iki farklı dilde konuşanlar birbirlerini anlayamayacakları gibi(İngilizce-Japonca), düşük seviyeli diller
+ile çalışan makineler de yüksek seviyeli dilleri anlayamazlar. Arada köprü görevi görecek ve tercümanlık yapacak
+yapılara ihtiyaç duyarız ve bu dillerin birbirlerine dönüşümlerini sağlarız.
+
+Yüksek seviyeli dillerin bazıları doğrudan makine koduna çevrilirken, bazıları bunu doğrudan yapmazlar. Şimdi Java
+yüksek  seviyeli dillerden bir tanesi olduğu için kendi syntaxinin makine diline çevrilmesine ihtiyaç duyar. Java bu
+işlemi doğrudan yapmaz. Java öncelikle bizim yazdığımız kodları derleyici yardımıyla orta bir katman olan byte-code lara
+çevirir. Fakat yanlış anlaşılmaması için aslında bu byte-code lar makine kodları değildir fakat makine koduna yakın
+kodlardır diyebiliriz. Byte-code a çevrilen java dosyalarımız Javanın sahip olduğu bir sanal makine tarafından (JVM)
+gerektiğinde makine koduna çevrilerek çalıştırılır.
+
+Şimdi hikayenin başında söylediğimiz gibi platform bağımsızlık durumu aslında JVM'in byte-code ları makine kodlarına
+çevirip çalıştırmasından dolayıdır. Jvm kendi içerisinde bulunan interpreter ve Just In Time Compiler (JIT) sayesinde
+byte-code'dan makine koduna çevirmeleri gerçekleştirir. Fakat bu dönüşüm işlemi java kodumuzun çalıştığı platforma
+özgüdür ve hangi platformda çalıştırılmak isteniyorsa JIT ona göre byte-code ları makine koduna çevirir.
+
+Sonuca varmamız gerekirse, bizim java dosyalarımız derleyici tarafından byte-code'lara çevrilir. Bu byte-code'lar
+istenilen platformda JVM(Interpreter-JIT) yardımıyla platformun gereklilikleri doğrultusunda makine koduna çevrilir ve
+çalıştırılır. Yani biz herhangi bir platform üzerinde yazdığımız Java dosyalarını byte-code'a çevirip gerektiğinde JVM
+ile çalıştırdığımız ve platformlara bağımlı kalmadığımız için aslında Java'yı platform bağımsız bir dil olarak
+nitelendiriyoruz.
 
 <!-- TECHNOLOGIES -->
 ### Technologies
@@ -12,16 +42,9 @@
 
 
 
-<!-- OUTPUT SCREENSHOTS -->
-### Output Screenshots
-
-<a ><img src="outputImages/week1/question1.png" alt="" height="80" /></a>
-<img src="/outputImages/week1/question1.png" alt="" />
-
 
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 

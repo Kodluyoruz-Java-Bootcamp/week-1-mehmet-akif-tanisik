@@ -2,8 +2,30 @@
 ## Project Description
 
 ### Question 7
-What is Build Tool ? Explain what is the build tools in the Java ecosystem? (5 POINTS)
+Build Tool nedir ? Java ekosistemindeki build tool'lar nelerdir açıklayınız?
 
+### Answer
+
+Build Tool'lar kaynak kodlarından çalıştırılabilir uygulamaların oluşturulmasını otomatikleştiren programlardır. Kodun
+kullanılabilir veya çalıştırılabilir hale gelecek şekilde derlenip, sınıfların birbirleri ile bağlantıları ve
+paketlemelerin halledilmesi bu araçlar sayesinde sağlanır. Küçük projelerde bu derleme süreçlerini genellikle manuel
+şekilde kendimiz yapmaktayız ancak bu büyük projeler için kullanışlı bir yöntem değildir. Büyük projelerde hangi
+sırayla ve neyin derlenmesi gerektiği veya hangi bağımlılıkların olduğunun takibi çok zor olduğundan manuel yöntemler
+build tool lar gibi kullanışlı veya patik değildir. Aynı zamanda bir build tool kullanılması projenin ayağa kalkma
+süresinin daha tutarlı olmasını sağlar.
+
+Java ekosistemindeki bazı build toollar:
+
+- Jenkins
+- Apache Ant
+- Gradle
+- TeamCity
+- Maven
+- Travis CI
+- CMake
+- sbt
+- MSBuild
+- Bamboo
 
 <!-- TECHNOLOGIES -->
 ### Technologies
@@ -12,17 +34,8 @@ What is Build Tool ? Explain what is the build tools in the Java ecosystem? (5 P
 
 
 
-
-<!-- OUTPUT SCREENSHOTS -->
-### Output Screenshots
-
-<a ><img src="outputImages/week1/question1.png" alt="" height="80" /></a>
-<img src="/outputImages/week1/question1.png" alt="" />
-
-
 <!-- LICENSE -->
 ## License
-![GitHub](https://img.shields.io/github/license/mehmet-akif-tanisik/JavaBootcamp-Kodluyoruz-Solmaz?style=for-the-badge)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
