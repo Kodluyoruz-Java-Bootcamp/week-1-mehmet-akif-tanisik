@@ -21,7 +21,7 @@ Inheritance'a izin vermemişlerdir. Bu şekilde bu karmaşıklıkların yaşanma
 <!-- TECHNOLOGIES -->
 ### Technologies
 
-<a href="https://www.java.com/" target="_blank"><img src="../../week-1-mehmet-akif-tanisik/outputImages/logos/java.svg" height="80" /></a>
+<a href="https://www.java.com/" target="_blank"><img src="../../../week-1-mehmet-akif-tanisik/outputImages/logos/java.svg" height="80" /></a>
 
 <!-- LICENSE -->
 ## License
